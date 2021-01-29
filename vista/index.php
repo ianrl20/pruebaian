@@ -93,8 +93,8 @@ if(!isset($_SESSION['S_IDUSUARIO'])){
           <img src="../Plantilla/dist/img/perfil usuario.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p><?php echo $_SESSION['S_IDUSUARIO']; ?></p>
           <p><?php echo $_SESSION['S_USER']; ?></p>
+          <p><?php echo $_SESSION['S_ROL']; ?></p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
